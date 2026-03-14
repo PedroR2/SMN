@@ -4,7 +4,7 @@
 ## 1. Configuração do banco de dados
 
 1. Crie um banco de dados básico.  
-   - Nome sugerido: `BlogDB`  
+   - Nome sugerido: `BlogDb`  
    - Você pode alterar o nome se desejar, mas lembre-se de atualizar o arquivo `appsettings.json` para refletir essa mudança.
 
 2. Crie as seguintes tabelas, seguindo os requisitos definidos para os objetos do teste:
