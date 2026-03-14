@@ -57,6 +57,9 @@ Mesmo que o tempo de desenvolvimento tenha sido suficiente para completar os req
 - **Testes unitários**  
   Criar testes para os métodos dos endpoints, garantindo que as funcionalidades se comportem conforme esperado.
 
+- **Especificar business rules para os objetos**  
+  Nesse teste eu adicioneis algumas validações básicas, mas poderia ter sido pedido (ou eu poderia ter adicionado, mas nao quis fugir do escopo do projeto em questão) algumas regras mais específicas, como por exemplo o título do post nao ser vazio, limite de caractéres do titulo ou do conteúdo, dentre outros.
+
 - **4. Possíveis endpoints adicionais**
 
 ```http
