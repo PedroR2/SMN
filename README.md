@@ -15,7 +15,6 @@ CREATE TABLE BlogPost (
     Id INT PRIMARY KEY IDENTITY(1,1),
     Title NVARCHAR(100) NOT NULL,
     Content NVARCHAR(100) NOT NULL,
-    CreatedAt DATETIME NOT NULL DEFAULT GETDATE()
 );
 
 -- Tabela de Comment
