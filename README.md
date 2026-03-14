@@ -57,4 +57,41 @@ Mesmo que o tempo de desenvolvimento tenha sido suficiente para completar os req
 
 - **Testes unitários**  
   Criar testes para os métodos dos endpoints, garantindo que as funcionalidades se comportem conforme esperado.
+
+- **4. Possíveis endpoints adicionais**
+
+```http
+# Posts
+PUT /posts/{id}       # Atualizar post
+DELETE /posts/{id}    # Deletar post
+
+# Comments
+PUT /comments/{id}    # Atualizar comentário
+DELETE /comments/{id} # Deletar comentário
+```
+
+## 5. Exemplo de uso dos endpoints (Aqui vou colocar apenas o Create de um BlogPost e de um Comment, visto que para o get é um request simples sem body)
+
+### Criar um BlogPost
+
+```http
+POST /posts
+Content-Type: application/json
+
+{
+	"title": "Titulo do BlogPost",
+	"content": "Conteudo do BlogPost"
+}
+```
+
+### Criar um Comment
+
+```http
+POST /posts/{id}/comments
+Content-Type: application/json
+
+{
+  "content": "Conteúdo do comentário"
+}
+```
 # SMN
