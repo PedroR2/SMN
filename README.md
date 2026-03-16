@@ -86,7 +86,7 @@ Content-Type: application/json
 }
 ```
 
-### Criar um Comment
+### Criar um Comment ({id} se refere ao id do BlogPost onde o comentário será adicionado.)
 
 ```http
 POST /posts/{id}/comments
