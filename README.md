@@ -37,7 +37,7 @@ CREATE TABLE Comment (
 
 4. Teste os endpoints para garantir que BlogPost e Comment estão funcionando corretamente.
 
-## 3. Melhorias sugeridas para um ambiente de trabalho real (não creio que o tempo requisitado foi um problema, poderia ter adicionado mais no tempo mas quis me ater ao projeto em questão para não fugir muito do que foi pedido.)
+## 3. Melhorias sugeridas para um ambiente de trabalho (não creio que o tempo requisitado foi um problema, poderia ter adicionado mais no tempo mas quis me ater ao projeto em questão para não fugir muito do que foi pedido, por isso adicionei esse ponto que substitui o "cite os próximos passos se você tivesse mais tempo disponível".)
 
 Mesmo que o tempo de desenvolvimento tenha sido suficiente para completar os requisitos, posso pensar em algumas melhorias que poderiam ter sido pedidas ou feitas:
 
